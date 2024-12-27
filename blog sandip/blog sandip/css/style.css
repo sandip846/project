@@ -1,0 +1,341 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    background-color: rgb(122, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+  
+  
+}
+.logo
+{
+    background-color:  rgb(122, 60, 60);
+    line-height: 80px;
+    font-size: 29px;
+    padding: 5px;
+    font-weight: bold;
+    margin: auto;
+    color: white;
+}
+.navbar
+{
+    width: 50vw;
+    font-size: 23px;
+    background-color: rgb(122, 60, 60);
+  
+    
+    
+}
+header .line
+{
+   height: 5px;
+   width: 0%;
+   background-color: gold;
+   transition: .9s;
+}
+.navbar a:hover .line
+{
+    height: 5px;
+    width: 100%;
+    background-color: gold;
+
+}
+.navbar a
+{
+    background-color: rgb(122, 60, 60);
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+    width: 100px;
+}
+.navbar a:hover
+{
+    background-color:rgb(110, 100, 100);
+    color:white;
+}
+.navbar-toggler
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: white;
+}
+.button span
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+#carouselExampleInterval img
+{
+    height: 500px;
+}
+
+
+
+
+
+
+.blog
+{
+    
+    background:skyblue;
+    padding: 5px;
+    text-align: center;
+    padding-top: 25px;
+    text-transform: capitalize;
+
+}
+.blog .b
+{
+    color: purple;
+}
+.blog .pera
+{
+    font-size: 20px;
+    
+}
+.blog .line2
+{
+    background:linear-gradient(to right,red,yellow,green,pink,purple);
+    height: 4px;
+    width: 0%;
+    transition: .5s;
+}
+.blog:hover .line2
+{
+    background:linear-gradient(to right,red,yellow,green,pink,purple);
+    height: 4px;
+    width: 100%;
+}
+
+
+
+
+
+
+.con
+{
+  
+    
+    background-color: skyblue;
+    padding: 15px;
+   
+}
+.ro
+{
+    
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  
+}
+.image img
+{
+    border-radius: 15px;
+}
+.co
+{
+    background-color: white;
+    
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    transition: .5s;
+   
+}
+.co:hover
+{
+    transform: rotate(5deg) ;
+}
+.co h1
+{
+    color: purple;
+}
+
+.butt button
+{
+    color: red;
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 4px solid black;
+}
+
+
+
+
+
+
+#c
+{
+    background-color: bisque;
+    background: url("https://t4.ftcdn.net/jpg/07/44/36/37/360_F_744363737_fQratit3182GzjiN1LbP7HuK9Z2vMc1C.jpg");
+   height: 350px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   line-height: 150px;
+
+}
+.sandip b
+{
+    font-size: 35px;
+    color: yellow;
+    text-transform: uppercase;
+}
+.sandip p
+{
+    margin-top: -100px;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+.our
+{
+    
+    background-color: transparent;
+    padding: 15px;
+    margin-top: 0px;
+    transform: translateY(-35%);
+    background-color: skyblue;
+    
+}
+.site
+{
+    
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.in
+{
+    
+    background-color:goldenrod;
+    padding: 25px;
+    width: 450px;
+    display: flex;
+    transition: .8s;
+    margin: 2px;
+   
+    
+}
+.our .in:hover
+{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.colu
+{
+    font-size: 48px;
+    
+    background-color: goldenrod;
+    padding: 5px;
+    box-shadow: 10px 10px 15px black ;
+}
+
+.bus
+{
+    
+    background-color: goldenrod;
+    padding: 3px;
+    box-shadow: 10px 10px 15px black ;
+
+}
+
+
+
+
+
+.decscribe
+{
+    
+    background-color: blueviolet;
+    background-image: linear-gradient(-45deg ,blueviolet,rgb(192, 131, 248));
+    
+    
+   
+}
+
+.note
+{
+    
+    text-align: center;
+    font-size: 18px;
+    
+}
+ .note .btn
+{
+    background-color: black;
+    color: white;
+    transition: .8s;
+    padding: 3px;
+    border-radius: 30%;
+   
+}
+.note .btn:hover
+{
+    transform: rotate(-10deg);
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+#contactinfo
+{
+    text-align: center;
+    height: 80px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+.footer
+{
+    height: 50px;
+    background-color: yellow;
+}
+.last
+{
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+
+body
+{
+   
+    background: linear-gradient(skyblue,blueviolet);
+}
